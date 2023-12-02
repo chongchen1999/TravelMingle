@@ -5,6 +5,8 @@ import Banner from "../components/UI/home/banner/Banner";
 import HotDestinations from "../components/UI/home/hot_destinations/HotDestinations";
 import AgencyIntroduction from "../components/UI/home/agency_introduction/AgencyIntroduction";
 import Footer from "../components/common/Footer";
+import TravelSection from "../components/common/TravelOption/TravelSection.jsx";
+import ServiceSection from "../components/common/CustomService/ServiceSection.jsx";
 
 const Home = () => {
     return (
@@ -23,7 +25,9 @@ const Home = () => {
             <Banner />
             <FlexBar />
             <AgencyIntroduction />
+            <TravelSection />
             <HotDestinations />
+            <ServiceSection />
             <Footer />
 
         </div>
