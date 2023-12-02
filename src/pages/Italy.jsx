@@ -6,11 +6,6 @@ import italyImage from '../assets/images/italy.webp';
 import MapContainer from "../components/UI/Destination/MapContainer.jsx";
 import italyImap1 from '../assets/images/map01.png';
 import italyImap2 from '../assets/images/map012.png';
-
-const MyComponent = () => {
-    return <img src={italyImage} alt="Italy" />;
-};
-
 const Italy = () => {
     return (
         <div>
