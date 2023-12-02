@@ -1,6 +1,6 @@
 // ServiceSection.js
 import React from 'react';
-import ServiceItem from './ServiceItem';
+import ServiceItem from './ServiceItem.jsx';
 
 const ServiceSection = () => {
     return (
