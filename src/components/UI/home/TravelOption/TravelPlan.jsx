@@ -1,7 +1,7 @@
 // TravelPlan.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Registration from "../../../pages/Registration.jsx";
+import Registration from "../../../../pages/Registration.jsx";
 
 const TravelPlan = ({ title, items, type}) => {
     return (

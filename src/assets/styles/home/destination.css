@@ -1,0 +1,172 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.tour-container {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+.image-container {
+    flex: 1;
+    width: 50%;
+
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.info-container {
+    flex-basis: 50%;
+    padding: 50px;
+    font-style: italic;
+}
+
+.info-container h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.info-container p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+.itinerary-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Add responsive design */
+@media (max-width: 768px) {
+    .tour-container {
+        flex-direction: column;
+    }
+
+    .image-container, .info-container {
+        flex-basis: 100%;
+    }
+}
+
+.map-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.map-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.map-subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.map-image img {
+    max-width: 100%;
+    height: auto;
+    border: none;
+}
+
+
+@media (max-width: 768px) {
+    .map-container {
+        margin: 10px auto;
+    }
+}
+
+.map-image {
+    margin-bottom: 100px;
+}
+
+.group-size-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.group-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.group-option {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+    position: relative;
+    cursor: pointer;
+}
+
+.group-option h3 {
+    margin: 10px 0;
+}
+
+.group-option .price {
+    font-weight: bold;
+    color: #333;
+}
+
+.group-option .checkmark {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: green;
+}
+
+.group-option.selected .checkmark {
+    display: block;
+}
+
+
+.group-option:hover {
+    border-color: #000;
+}
+
+
+@media (max-width: 768px) {
+    .group-options {
+        flex-direction: column;
+    }
+}
+
+.registration-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.registration-button-container button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #5da2ec;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.registration-button-container button:hover {
+    background-color: #003d82;
+}
+
