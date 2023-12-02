@@ -2608,10 +2608,10 @@ h4 {
     padding: 130px 145px 0 125px;
 }
 .sx-temp1{
-    background-image: url(../images/sx_bg1.png);
+    background-image: url(../../images/bg1.png);
 }
 .sx-temp2{
-    background-image: url(../images/sx_bg2.png);
+    background-image: url(../../images/bg2.png);
 }
 .sx-list li{
     overflow: hidden;
@@ -10485,10 +10485,10 @@ li.ht {
     box-shadow: 0 0 30px #e7e6e8;
 }
 .fam-cell.fam-1{
-    background-image: url(../img/bg1.png);
+    background-image: url(../../images/bg1.png);
 }
 .fam-cell.fam-2{
-    background-image: url(../img/bg2.png);
+    background-image: url(../../images/bg2.png);
 }
 .fam-grid{
     padding: 30px;
@@ -11163,7 +11163,7 @@ li.ht {
     align-items: center;
     justify-content: center;
     font-size: 22px;
-    background: url(../img/sq.png);
+    background: url(../../images/sq.png);
 }
 .serv-squ .nbox{
     width: 40px;
@@ -11183,7 +11183,7 @@ li.ht {
 }
 .cson-serv-section{
     padding-bottom: 100px;
-    background: url(../img/servbg.jpg) center bottom no-repeat;
+    background: url(../../images/servbg.jpg) center bottom no-repeat;
 }
 
 .hex-cell{
