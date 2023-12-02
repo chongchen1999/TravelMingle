@@ -82,7 +82,7 @@ h4 {
 }
 
 .footer {
-    background: url(../img/footer.jpg) center top no-repeat;
+    background: url(../../images/footer.jpg) center top no-repeat;
     background-size: cover;
     color: #FFFFFF;
 }

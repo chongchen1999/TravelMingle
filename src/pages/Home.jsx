@@ -4,6 +4,7 @@ import Navbar from "../components/common/navbar/Navbar";
 import Banner from "../components/UI/home/banner/Banner";
 import HotDestinations from "../components/UI/home/hot_destinations/HotDestinations";
 import AgencyIntroduction from "../components/UI/home/agency_introduction/AgencyIntroduction";
+import Footer from "../components/common/Footer";
 
 const Home = () => {
     return (
@@ -23,6 +24,7 @@ const Home = () => {
             <FlexBar />
             <AgencyIntroduction />
             <HotDestinations />
+            <Footer />
 
         </div>
     );
