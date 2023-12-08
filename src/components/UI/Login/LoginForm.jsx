@@ -1,6 +1,7 @@
 // LoginComponent.jsx
 import {useState} from 'react';
 import '../../../assets/styles/Login/login.css';
+import {Link} from "react-router-dom";
 
 const LoginForm = () => {
     const [username, setUsername] = useState('');
@@ -39,7 +40,8 @@ const LoginForm = () => {
                         </div>
                         <div className="form-footer">
                             {/* eslint-disable-next-line react/no-unescaped-entities */}
-                            Don't have an account yet?<a href="register.html" className="link">Sign up</a> now!
+                            Don't have an account yet?
+                            <Link to="/signup" className="link">Sign up</Link> now!
                         </div>
                     </form>
                 </div>
