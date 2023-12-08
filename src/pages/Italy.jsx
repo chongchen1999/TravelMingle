@@ -6,6 +6,7 @@ import italyImage from '../assets/images/italy.webp';
 import MapContainer from "../components/UI/Destination/MapContainer.jsx";
 import italyImap1 from '../assets/images/map01.png';
 import italyImap2 from '../assets/images/map012.png';
+import GroupSelectionContainer from "../components/UI/Destination/GroupSelectionContainer.jsx";
 const Italy = () => {
     return (
         <div>
@@ -31,6 +32,7 @@ const Italy = () => {
                 mapImage1={italyImap1}
                 mapImage2={italyImap2}
             />
+            <GroupSelectionContainer />
             <Footer />
         </div>
     );
