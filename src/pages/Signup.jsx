@@ -1,6 +1,10 @@
+import SignupForm from "../components/UI/Signup/SignupForm.jsx";
+
 const Signup = () => {
     return (
-        <div>Signup page</div>
+        <div>
+            <SignupForm />
+        </div>
     );
 };
 

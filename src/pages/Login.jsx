@@ -6,11 +6,7 @@ import Footer from "../components/common/Footer.jsx";
 const Login = () => {
     return (
         <div>
-
-
-
             <LoginForm />
-
         </div>
     );
 }
