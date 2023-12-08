@@ -6,6 +6,7 @@ import SwitzerlandImage from '../assets/images/switzerland.webp';
 import MapContainer from "../components/UI/Destination/MapContainer.jsx";
 import SwitzerlandImap1 from '../assets/images/map021.png';
 import SwitzerlandImap2 from '../assets/images/map022.png';
+import GroupSelectionContainer from "../components/UI/Destination/GroupSelectionContainer.jsx";
 
 const Switzerland = () => {
     return (
@@ -32,6 +33,7 @@ const Switzerland = () => {
                 mapImage1={SwitzerlandImap1}
                 mapImage2={SwitzerlandImap2}
             />
+            <GroupSelectionContainer />
             <Footer />
         </div>
     );

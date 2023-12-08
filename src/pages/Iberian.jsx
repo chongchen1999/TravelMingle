@@ -6,6 +6,7 @@ import iberianImage from '../assets/images/iberian.webp';
 import MapContainer from "../components/UI/Destination/MapContainer.jsx";
 import iberianImap1 from '../assets/images/map031.png';
 import iberianImap2 from '../assets/images/map032.png';
+import GroupSelectionContainer from "../components/UI/Destination/GroupSelectionContainer.jsx";
 const Iberian = () => {
     return (
         <div>
@@ -31,6 +32,7 @@ const Iberian = () => {
                 mapImage1={iberianImap1}
                 mapImage2={iberianImap2}
             />
+            <GroupSelectionContainer />
             <Footer />
         </div>
     );
