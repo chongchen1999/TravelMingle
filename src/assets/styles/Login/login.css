@@ -1,0 +1,180 @@
+.lay-wrap{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    
+}
+.lay-col{
+    width: 66%;
+    float: left;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.lay-col .inner{
+    padding-left: 150px;
+    padding-top: 20%;
+}
+.lay-text{
+    color: #d7d7d7;
+    margin-top: 40px;
+    max-width: 520px;
+    line-height: 2;
+    font-size: 16px;
+    margin-left: 23px;
+}
+.lay-form{
+    width: 34%;
+    float: left;
+    
+}
+.form-inner{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.lay-login .form-inner{
+    padding-top: 20%;
+}
+.form-tit{
+    position: relative;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+.form-tit:after{
+    width: 55px;
+    height: 6px;
+    background-color: #09aae0;
+    content: '　';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    box-shadow: 10px 0 40px rgba(51,83,247,.3);
+}
+.form-button .btn-submit,
+.form-button .btn-submit:enabled:active{
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    color: #FFFFFF;
+    width: 100%;
+    font-size: 16px;
+    box-shadow: 10px 0 30px rgba(51,83,247,.3);
+    background: -webkit-linear-gradient(#657cf8,#2d4ef7); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#657cf8,#2d4ef7); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#657cf8,#2d4ef7); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#657cf8,#2d4ef7);
+}
+.form-group{
+    margin-bottom: 30px;
+}
+.form-link{
+    padding:0 20px;
+    margin-top: -5px;
+    margin-bottom: 40px;
+}
+.form-group .form-control{
+    height: 40px;
+    font-size: 25px;
+}
+.form-footer{
+    padding: 20px;
+    font-size: 14px;
+}
+.form-footer a{
+    color: #5d83f7;
+    border-bottom: 1px solid #5d83f7;
+}
+.form-link .link{
+    color: #5d83f7;
+    font-size: 14px;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #546ef8;
+    outline: 0;
+    box-shadow: 0 0 0 0 transparent;
+}
+.form-check-label{
+    position: relative;
+    padding-left: 22px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.form-check-label *{
+    display: inline-block;
+    vertical-align: middle;
+}
+.form-check-input{
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 18px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #d9d9d9;
+    outline: 0!important;
+    background-color: transparent;
+    -webkit-appearance: none;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -8px;
+
+}
+.form-check-input:checked{
+    border: 1px solid #3a59f7;
+    background: url(../images/dui.png) center no-repeat;
+    background-size: 12px 12px;
+}
+
+
+
+.lay-regist .form-inner{
+    padding-top: 10%;
+}
+.lay-regist .form-group{
+    margin-bottom: 20px;
+}
+.lay-regist .form-tit {
+    margin-bottom:30px;
+}
+.owl-nav{
+    display: none;
+}
+.owl-dots{
+    display: none;
+}
+@media (max-width:1400px) {
+    .lay-regist .form-group{
+        margin-bottom: 16px;
+    }
+}
+.form-code{
+    position: relative;
+    padding-right: 105px;
+}
+.form-code .link-code{
+    display: block;
+    background-color: #657cf8;
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 90px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+}
+.row-temp{
+    padding: 0 80px;
+    margin-top: -40px;
+}
