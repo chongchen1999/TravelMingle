@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'; // 假设你使用 react-router-dom
 import LoginMenu from "./LoginMenu";
 import UserProfile from "./UserProfile";
 import MobileMenuButton from "./MobileMenuButton";
+import Destinations from "./Destinations.jsx";
 
 const Navbar = () => {
     return (
@@ -21,6 +22,8 @@ const Navbar = () => {
                         </Link>
 
                         <LoginMenu />
+
+                        <Destinations />
 
                         <button
                             className="bg-gray-700 text-white p-2 rounded-full hover:bg-gray-600 focus:outline-none focus:ring focus:ring-gray-300">

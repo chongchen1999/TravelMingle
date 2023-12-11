@@ -1,5 +1,6 @@
 import React from 'react';
-import '../../../assets/styles/Login/login.css'; // Assuming the CSS is in the same folder
+import '../../../assets/styles/Login/login.css';
+import {Link} from "react-router-dom"; // Assuming the CSS is in the same folder
 
 class SignupForm extends React.Component {
 
@@ -36,7 +37,8 @@ class SignupForm extends React.Component {
                             </div>
                         </form>
                         <div className="form-footer">
-                            Already have an account<a href="javascript:void(0);">Log in now</a>
+                            Already have an account?
+                            <Link to="/Login" className="link">Log in</Link> now!
                         </div>
                     </div>
                 </div>

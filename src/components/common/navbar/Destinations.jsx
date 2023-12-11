@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-const LoginMenu = () => {
+const Destinations = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleDropdown = () => setIsOpen(!isOpen);
@@ -15,7 +15,7 @@ const LoginMenu = () => {
                 aria-haspopup="true"
                 onClick={toggleDropdown}
             >
-                MyInsight
+                Destinations
                 <svg className="ml-2 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                      aria-hidden="true">
                     <path fillRule="evenodd"
@@ -30,11 +30,12 @@ const LoginMenu = () => {
                 aria-orientation="vertical"
                 aria-labelledby="login-menu-button"
             >
-                <Link to="/Login" className="block px-4 py-2 text-lg text-gray-700 hover:bg-gray-100" role="menuitem">Log in</Link>
-                <Link to="/Signup" className="block px-4 py-2 text-lg text-gray-700 hover:bg-gray-100" role="menuitem">Sign up</Link>
+                <Link to="/Italy" className="block px-4 py-2 text-lg text-gray-700 hover:bg-gray-100" role="menuitem">Italy</Link>
+                <Link to="/Switzerland" className="block px-4 py-2 text-lg text-gray-700 hover:bg-gray-100" role="menuitem">Switzerland</Link>
+                <Link to="/Iberian" className="block px-4 py-2 text-lg text-gray-700 hover:bg-gray-100" role="menuitem">Iberian</Link>
             </div>
         </div>
     );
 }
 
-export default LoginMenu;
+export default Destinations;
