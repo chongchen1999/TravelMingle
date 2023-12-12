@@ -6,7 +6,7 @@ import Destinations from "./Destinations.jsx";
 
 const Navbar = () => {
     return (
-        <nav className="bg-gray-800 text-white p-4">
+        <nav className="bg-gray-800 text-white p-4 nav-on-top">
             <div className="container mx-auto">
                 <div className="flex justify-between items-center">
                     <div>

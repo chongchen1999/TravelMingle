@@ -1,10 +1,10 @@
 .lay-wrap{
-    position: absolute;
+    position: relative;
     height: 100%;
     width: 100%;
     left: 0;
     top: 0;
-    
+    z-index: 1;
 }
 .lay-col{
     width: 66%;
@@ -13,10 +13,12 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    z-index: 1;
 }
 .lay-col .inner{
     padding-left: 150px;
     padding-top: 20%;
+    z-index: 1;
 }
 .lay-text{
     color: #d7d7d7;
@@ -177,4 +179,9 @@
 .row-temp{
     padding: 0 80px;
     margin-top: -40px;
+}
+
+.nav-on-top {
+    position: relative;
+    z-index: 1000;
 }
