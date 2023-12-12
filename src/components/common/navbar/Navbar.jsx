@@ -17,13 +17,14 @@ const Navbar = () => {
                         <Link to="/Home" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-xl font-medium">
                             Homepage
                         </Link>
-                        <Link to="/Registration" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-xl font-medium">
-                            Registration
-                        </Link>
 
                         <LoginMenu />
 
                         <Destinations />
+
+                        <Link to="/Registration" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-xl font-medium">
+                            Register now!
+                        </Link>
 
                         <button
                             className="bg-gray-700 text-white p-2 rounded-full hover:bg-gray-600 focus:outline-none focus:ring focus:ring-gray-300">

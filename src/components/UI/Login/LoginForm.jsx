@@ -14,10 +14,10 @@ const LoginForm = () => {
     };
 
     return (
-        <div className="container">
-            <div className="lay-wrap">
-                <div className="lay-col" style={{backgroundImage: "url(src/assets/images/L001.jpg)"}}></div>
-                <div className="lay-form lay-login">
+        <div>
+            <div className="lay-wrap-login">
+                <div className="lay-col-login" style={{backgroundImage: "url(src/assets/images/L001.jpg)"}}></div>
+                <div className="lay-form-login lay-login">
                     <form role="form" className="form-inner">
                         <div className="form-tit">WELCOME HOME</div>
                         <div className="form-group">
@@ -46,6 +46,7 @@ const LoginForm = () => {
                     </form>
                 </div>
             </div>
+            <div className="lay-wrap-login-placeholder"> </div>
         </div>
     );
 }
